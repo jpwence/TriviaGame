@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- My CSS sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1 class="main-header">Hey, Queen!</h1>
+			<p class="header-text">You may think you know, but you don't.  This quiz will prepare you for the ball, the function, and the event.  Answer the questions correctly. It's timed. Get crackin'!
+		</div>
+		<div id="correctAnswer"></div>
+		<div class="row" id="mainContent">
+			<button type="button" class="btn btn-default btn-block" id="start">Start Game</button>
+			<div class="col-md-12 text-center" id="time"> 
+			</div>
+			<div class="col-md-12 text-center" id="question">Click Start
+			</div>
+			<button type="button" class="btn btn-default btn-block" id="answerOne"></button>
+			<button type="button" class="btn btn-default btn-block" id="answerTwo"></button>
+			<button type="button" class="btn btn-default btn-block" id="answerThree"></button>
+			<button type="button" class="btn btn-default btn-block" id="answerFour"></button>
+		</div>
+	</div>
+</body>
+</html>
